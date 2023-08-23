@@ -4,9 +4,9 @@
 $nombre = $_POST['nombre'];
 $apellido = $_POST['apellido'];
 $documento = $_POST['documento'];
-$documento = $_POST['edad'];
+$edad = $_POST['edad'];
 
 
-echo $nombre;
+echo $nombre + $apellido + $documento + $edad;
 
 ?>
