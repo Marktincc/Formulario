@@ -6,7 +6,6 @@ $apellido = $_POST['apellido'];
 $documento = $_POST['documento'];
 $edad = $_POST['edad'];
 
-
-echo $nombre + $apellido + $documento + $edad;
+echo 'Nombre:', $nombre ,' Apellido:', $apellido , ' documento:', $documento, ' edad:',  $edad;
 
 ?>
